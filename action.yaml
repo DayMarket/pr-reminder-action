@@ -1,0 +1,26 @@
+name: 'PR Reminder'
+description: 'Handle PR triggers'
+
+inputs:
+  slack_bot_auth_token:
+    description: 'The Slack bot auth token'
+    required: true
+  slack_channel_id:
+    description: 'The Slack channel id'
+    required: true
+  slack_user_group_id:
+    description: 'The Slack user group id'
+    required: true
+  slack_gh_field_id:
+    description: 'The Slack github field if'
+    required: true
+  github_token:
+    description: 'The GitHub token for accessing the repository'
+    required: true
+  pull_request_number:
+    description: 'The PR number from GitHub'
+    required: false  
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

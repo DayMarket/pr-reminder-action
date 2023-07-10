@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BBAF7472A5312E0004EC756 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF7462A5312E0004EC756 /* Main.swift */; };
+		4BBAF74E2A531321004EC756 /* InputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF74D2A531321004EC756 /* InputData.swift */; };
+		4BBAF7502A531349004EC756 /* SlackUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF74F2A531349004EC756 /* SlackUser.swift */; };
+		4BBAF7522A531357004EC756 /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF7512A531357004EC756 /* PullRequest.swift */; };
+		4BBAF7552A53136D004EC756 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF7542A53136D004EC756 /* Logger.swift */; };
+		4BBAF75C2A5313BA004EC756 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF75B2A5313BA004EC756 /* APIError.swift */; };
+		4BBAF75E2A5313D4004EC756 /* BaseAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF75D2A5313D4004EC756 /* BaseAPIClient.swift */; };
+		4BBAF7602A5313EE004EC756 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF75F2A5313EE004EC756 /* BaseRequest.swift */; };
+		4BBAF7622A531404004EC756 /* URLSession+LinuxOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF7612A531404004EC756 /* URLSession+LinuxOS.swift */; };
+		4BBAF7642A531416004EC756 /* SlackAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF7632A531416004EC756 /* SlackAPIClient.swift */; };
+		4BBAF7662A53142F004EC756 /* GithubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF7652A53142F004EC756 /* GithubAPIClient.swift */; };
+		4BBAF7692A531453004EC756 /* BaseAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF7682A531453004EC756 /* BaseAction.swift */; };
+		4BBAF76B2A531461004EC756 /* PRNotificationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF76A2A531461004EC756 /* PRNotificationAction.swift */; };
+		4BBAF76D2A531478004EC756 /* RemindToCheckPRListAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAF76C2A531478004EC756 /* RemindToCheckPRListAction.swift */; };
+		4BC3D7852A543A240089E7F5 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3D7842A543A240089E7F5 /* Int+Extensions.swift */; };
+		4BC3D7892A55666A0089E7F5 /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3D7882A55666A0089E7F5 /* Blocks.swift */; };
+		4BD568782A57118700AA507E /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD568772A57118700AA507E /* Content.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4BBAF7412A5312E0004EC756 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4BBAF7432A5312E0004EC756 /* github-action-app */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "github-action-app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBAF7462A5312E0004EC756 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		4BBAF74D2A531321004EC756 /* InputData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputData.swift; sourceTree = "<group>"; };
+		4BBAF74F2A531349004EC756 /* SlackUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackUser.swift; sourceTree = "<group>"; };
+		4BBAF7512A531357004EC756 /* PullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
+		4BBAF7542A53136D004EC756 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		4BBAF75B2A5313BA004EC756 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		4BBAF75D2A5313D4004EC756 /* BaseAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIClient.swift; sourceTree = "<group>"; };
+		4BBAF75F2A5313EE004EC756 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		4BBAF7612A531404004EC756 /* URLSession+LinuxOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+LinuxOS.swift"; sourceTree = "<group>"; };
+		4BBAF7632A531416004EC756 /* SlackAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackAPIClient.swift; sourceTree = "<group>"; };
+		4BBAF7652A53142F004EC756 /* GithubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPIClient.swift; sourceTree = "<group>"; };
+		4BBAF7682A531453004EC756 /* BaseAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAction.swift; sourceTree = "<group>"; };
+		4BBAF76A2A531461004EC756 /* PRNotificationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRNotificationAction.swift; sourceTree = "<group>"; };
+		4BBAF76C2A531478004EC756 /* RemindToCheckPRListAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindToCheckPRListAction.swift; sourceTree = "<group>"; };
+		4BC3D7842A543A240089E7F5 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		4BC3D7882A55666A0089E7F5 /* Blocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blocks.swift; sourceTree = "<group>"; };
+		4BD568772A57118700AA507E /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BBAF7402A5312E0004EC756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BBAF73A2A5312E0004EC756 = {
+			isa = PBXGroup;
+			children = (
+				4BBAF7452A5312E0004EC756 /* github-action-app */,
+				4BBAF7442A5312E0004EC756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BBAF7442A5312E0004EC756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BBAF7432A5312E0004EC756 /* github-action-app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBAF7452A5312E0004EC756 /* github-action-app */ = {
+			isa = PBXGroup;
+			children = (
+				4BBAF7462A5312E0004EC756 /* Main.swift */,
+				4BBAF7672A531446004EC756 /* Actions */,
+				4BBAF7592A5313AB004EC756 /* API */,
+				4BBAF7582A53139B004EC756 /* Utilities */,
+				4BBAF7532A53135D004EC756 /* Models */,
+				4BC3D7832A543A170089E7F5 /* Extensions */,
+			);
+			path = "github-action-app";
+			sourceTree = "<group>";
+		};
+		4BBAF7532A53135D004EC756 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BBAF74D2A531321004EC756 /* InputData.swift */,
+				4BBAF74F2A531349004EC756 /* SlackUser.swift */,
+				4BBAF7512A531357004EC756 /* PullRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4BBAF7582A53139B004EC756 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4BD568742A57115B00AA507E /* Blocks */,
+				4BBAF7542A53136D004EC756 /* Logger.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4BBAF7592A5313AB004EC756 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4BBAF75A2A5313B0004EC756 /* Base */,
+				4BBAF7632A531416004EC756 /* SlackAPIClient.swift */,
+				4BBAF7652A53142F004EC756 /* GithubAPIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4BBAF75A2A5313B0004EC756 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4BBAF75B2A5313BA004EC756 /* APIError.swift */,
+				4BBAF75D2A5313D4004EC756 /* BaseAPIClient.swift */,
+				4BBAF75F2A5313EE004EC756 /* BaseRequest.swift */,
+				4BBAF7612A531404004EC756 /* URLSession+LinuxOS.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4BBAF7672A531446004EC756 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				4BBAF7682A531453004EC756 /* BaseAction.swift */,
+				4BBAF76A2A531461004EC756 /* PRNotificationAction.swift */,
+				4BBAF76C2A531478004EC756 /* RemindToCheckPRListAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		4BC3D7832A543A170089E7F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BC3D7842A543A240089E7F5 /* Int+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4BD568742A57115B00AA507E /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC3D7882A55666A0089E7F5 /* Blocks.swift */,
+				4BD568772A57118700AA507E /* Content.swift */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BBAF7422A5312E0004EC756 /* github-action-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBAF74A2A5312E0004EC756 /* Build configuration list for PBXNativeTarget "github-action-app" */;
+			buildPhases = (
+				4BBAF73F2A5312E0004EC756 /* Sources */,
+				4BBAF7402A5312E0004EC756 /* Frameworks */,
+				4BBAF7412A5312E0004EC756 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "github-action-app";
+			productName = "github-action-app";
+			productReference = 4BBAF7432A5312E0004EC756 /* github-action-app */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BBAF73B2A5312E0004EC756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4BBAF7422A5312E0004EC756 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BBAF73E2A5312E0004EC756 /* Build configuration list for PBXProject "github-action-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BBAF73A2A5312E0004EC756;
+			productRefGroup = 4BBAF7442A5312E0004EC756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BBAF7422A5312E0004EC756 /* github-action-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BBAF73F2A5312E0004EC756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBAF7552A53136D004EC756 /* Logger.swift in Sources */,
+				4BBAF7622A531404004EC756 /* URLSession+LinuxOS.swift in Sources */,
+				4BC3D7892A55666A0089E7F5 /* Blocks.swift in Sources */,
+				4BBAF76D2A531478004EC756 /* RemindToCheckPRListAction.swift in Sources */,
+				4BBAF74E2A531321004EC756 /* InputData.swift in Sources */,
+				4BBAF76B2A531461004EC756 /* PRNotificationAction.swift in Sources */,
+				4BC3D7852A543A240089E7F5 /* Int+Extensions.swift in Sources */,
+				4BBAF75E2A5313D4004EC756 /* BaseAPIClient.swift in Sources */,
+				4BBAF7642A531416004EC756 /* SlackAPIClient.swift in Sources */,
+				4BBAF7692A531453004EC756 /* BaseAction.swift in Sources */,
+				4BBAF7502A531349004EC756 /* SlackUser.swift in Sources */,
+				4BBAF7522A531357004EC756 /* PullRequest.swift in Sources */,
+				4BBAF7472A5312E0004EC756 /* Main.swift in Sources */,
+				4BBAF7662A53142F004EC756 /* GithubAPIClient.swift in Sources */,
+				4BBAF75C2A5313BA004EC756 /* APIError.swift in Sources */,
+				4BBAF7602A5313EE004EC756 /* BaseRequest.swift in Sources */,
+				4BD568782A57118700AA507E /* Content.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4BBAF7482A5312E0004EC756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BBAF7492A5312E0004EC756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4BBAF74B2A5312E0004EC756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YY5ZXP7A4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4BBAF74C2A5312E0004EC756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YY5ZXP7A4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BBAF73E2A5312E0004EC756 /* Build configuration list for PBXProject "github-action-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBAF7482A5312E0004EC756 /* Debug */,
+				4BBAF7492A5312E0004EC756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBAF74A2A5312E0004EC756 /* Build configuration list for PBXNativeTarget "github-action-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBAF74B2A5312E0004EC756 /* Debug */,
+				4BBAF74C2A5312E0004EC756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BBAF73B2A5312E0004EC756 /* Project object */;
+}
