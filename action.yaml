@@ -11,7 +11,7 @@ inputs:
   slack_user_group_id:
     description: 'The Slack user group id'
     required: true
-  slack_gh_field_id:
+  slack_field_id:
     description: 'The Slack github field if'
     required: true
   github_token:
