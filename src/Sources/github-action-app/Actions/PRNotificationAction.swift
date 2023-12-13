@@ -10,7 +10,7 @@ import Foundation
 final class PRNotificationAction: BaseAction {
     override func run(with inputData: InputData) async {
         let githubAPIClient: GithubAPIClient = .init(token: inputData.githubToken, repo: inputData.githubRepository, logger: logger)
-        let slackAPIClient: SlackAPIClient = SlackAPIClient(token: inputData.slackBotAuthToken, logger: logger)
+        let slackAPIClient: SlackAPIClient = .init(token: inputData.slackBotAuthToken, logger: logger)
 
         do {
             guard let prNumber: String = inputData.githubPullRequestNumber else {
@@ -34,7 +34,7 @@ final class PRNotificationAction: BaseAction {
    
     private func configureMessage(with pullRequest: PullRequest) -> String {
         Blocks()
-            .sectionText("*PR #\(pullRequest.number) was created:*\n<\(pullRequest.url)|\(pullRequest.title)>")
+            .sectionText(":uzum: *PR #\(pullRequest.number) was created:*\n<\(pullRequest.url)|\(pullRequest.title)>")
             .sectionFields([
                 "*Reviewers*:\n\(pullRequest.reviews.map { $0.user.mentionName }.joined(separator: "\n"))",
                 "*Author:*\n\(pullRequest.author.mentionName)"

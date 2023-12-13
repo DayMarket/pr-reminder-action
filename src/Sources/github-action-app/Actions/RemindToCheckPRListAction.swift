@@ -28,7 +28,7 @@ final class RemindToCheckPRListAction: BaseAction {
         let blocks: Blocks = .init()
         for var pullRequest in pullRequestList {
             pullRequest.tryToFillSlackName(with: slackUsers)
-            let title: String = "*PR <\(pullRequest.url) | #\(pullRequest.number)> is waiting review from:*\n"
+            let title: String = "*:uzum: PR <\(pullRequest.url) | #\(pullRequest.number)> is waiting review from:*\n"
             let reviewers: String = pullRequest.reviews.map { $0.user.mentionName}.joined(separator: "\n")
             blocks
                 .sectionText(title + reviewers)
